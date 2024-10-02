@@ -53,10 +53,10 @@
               "fileReplacements": [
                 {
                   "replace": "src/environments/environment.ts",
-                  "with": "src/environments/environment.web.ts"
+                  "with": "src/environments/environment.prod.ts"
                 }
               ],
-              "index": "src/environments/web/index.html",
+              "index": "src/index.html",
               "namedChunks": false,
               "optimization": true,
               "outputHashing": "all",
